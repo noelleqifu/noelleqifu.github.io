@@ -1,0 +1,285 @@
+body{
+	margin: 0 auto;
+}
+
+.nav{
+
+	width: 100%;
+	text-align: center;
+}
+
+.nav-option{
+	font-family: Helvetica;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+ 	color: #ededed;
+
+	display: inline-block;
+	background-color: #222126;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	width: 33.333%;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Override project-outer class size for tablet */
+	@media (max-width: 768px) {
+		.nav-option{
+		font-size: 15px;
+		}
+	}
+
+	/* Override project-outer class size for desktop */
+	@media (max-width: 1024px) {
+		.nav-option {
+		font-size: 10px;
+		}
+	}
+
+.hero {
+
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: -5px;
+}
+
+/* properties consistent through each section (design, photography, etc)*/
+
+.dark .big-portfolio-box{ /* contains all elements for design/photography/etc*/
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: inline-block;
+
+	background: #222126;
+	color: white;
+}
+
+.light .big-portfolio-box{
+
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: inline-block;
+
+ 	background: #ededed;
+	color: #222126;
+}
+
+.dark .page-title{
+	
+ 	font-family: Helvetica;
+ 	text-transform: uppercase;
+ 	color: #ededed;
+
+ 	letter-spacing: 3px;
+
+	text-align: center;
+ 	margin-top: 60px;
+ 	margin-bottom: 30px;
+
+}
+
+.light .page-title{
+	
+ 	font-family: Helvetica;
+ 	text-transform: uppercase;
+ 	color: #222126;
+
+ 	letter-spacing: 3px;
+
+	text-align: center;
+ 	margin-top: 60px;
+ 	margin-bottom: 30px;
+
+}
+
+.dark .button-text-box{
+	font-family: Helvetica;
+	text-align: center;
+
+	background: transparent;
+	color: #ededed;
+
+	text-decoration: none;
+	border: solid #ededed 1.5px;
+
+	width: 140px;
+	height: auto;
+	
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 12px;
+	line-height: 25px;
+}
+
+.light .button-text-box{
+
+	font-family: Helvetica;
+	text-align: center;
+
+	background: transparent;
+	color: #222126;
+
+	border: solid black 1.5px;
+	text-decoration: none;
+
+	width: 140px;
+	height: auto;
+	
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	padding: 12px;
+	line-height: 25px;
+}
+
+a{
+
+	text-decoration: none;
+}
+
+.dark a{
+	color: #ededed;
+}
+
+.dark a:link{
+
+	color: #ededed;
+}
+
+.dark a:visited{
+
+	color: #ededed;
+}
+.dark a:hover{
+
+	background-color: #ededed;
+	color: #222126;
+}
+
+.light a{
+	color: #222126;
+}
+
+.light a:link{
+
+	color: #222126;
+}
+
+.light a:visited{
+
+	color: #222126;
+}
+
+.light  a:hover{
+
+	background-color: #222126;
+	color: #ededed;
+}
+
+.three-across{
+
+	width: 100%;
+}
+
+.project-inner{ /* each individual project is contained inside one of these*/
+
+
+	height: auto;
+	width: 300px;
+
+	border: none;
+	text-align: center;
+	margin: 0 auto;
+} 
+
+/* These determine project width */
+.project-outer{
+
+	width: 100%;
+	display: inline-block;
+}
+
+/* Override project-outer class size for tablet */
+	@media (min-width: 768px) {
+		.project-outer {
+		width: 50%;
+		display: inline-block;
+		}
+	}
+
+	/* Override project-outer class size for desktop */
+	@media (min-width: 1024px) {
+		.project-outer {
+		width: 33.333%;
+		display: inline-block;
+		}
+	}	
+
+/* Project-inner is a nested div inside of project-outer*/
+
+.project-thumbnail{
+
+	height: 150px;
+	width: fill;
+	margin: 0 auto;
+	margin-top: 15px;
+
+}
+
+.page-background{
+
+	background: #ededed;
+	
+}
+
+.dark .project-title{
+	font-family: Helvetica;
+	text-align: center;
+	margin-bottom: 10px;
+
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	color: #ededed;
+}
+
+.light .project-title{
+	font-family: Helvetica;
+	text-align: center;
+	color: #222126;
+
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-bottom: 10px;
+
+}
+
+.light .tagline{
+
+	font-family: Helvetica;
+	text-align: center;
+	color: #222126;
+	font-weight: normal;
+	letter-spacing: 1px;
+
+}
+
+.dark .tagline{
+
+	font-family: Helvetica;
+	text-align: center;
+	color: #ededed;
+	font-weight: normal;
+
+	letter-spacing: 1px;
+
+}
