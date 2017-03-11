@@ -1,0 +1,266 @@
+body{
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+}
+
+.nav{
+
+	width: 100%;
+	text-align: center;
+}
+
+.nav-option-box{
+	background-color: #191919;
+	display: block;
+	width: 100%;
+	
+}
+
+.nav-option{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+ 	color: #ededed;
+
+	display: inline-block;
+	background-color: #191919;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	width: 32%;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Override project-outer class size for tablet */
+	@media (max-width: 768px) {
+		.nav-option{
+		font-size: 15px;
+		}
+	}
+
+	/* Override project-outer class size for desktop */
+	@media (max-width: 1024px) {
+		.nav-option {
+		font-size: 10px;
+		}
+	}
+
+.hero {
+
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	margin-bottom: -5px;
+
+	background-image: url("images/hero-mobile.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	/*Responsive for tablet and desktop*/
+	@media (min-width: 1024px){
+		.hero{
+
+			background-image: url("images/hero-desktop.png");
+			background-size: contain;
+			background-repeat: no-repeat;
+
+			width: 100%;
+			height: 100vh;
+			margin: 0 auto;
+			margin-bottom: -5px;
+
+			
+		}
+	}
+
+
+/* properties consistent through each section (design, photography, etc)*/
+
+.dark .big-portfolio-box{ /* contains all elements for design/photography/etc*/
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: inline-block;
+
+	background: #222126;
+	color: white;
+}
+
+.light .big-portfolio-box{
+
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: inline-block;
+
+ 	background: #ededed;
+	color: #222126;
+}
+
+.page-title{
+	
+	font-family: 'Raleway', sans-serif;
+ 	text-transform: uppercase;
+
+ 	letter-spacing: 3px;
+
+	text-align: center;
+ 	margin-top: 60px;
+ 	margin-bottom: 30px;
+
+}
+
+.button-text-box{
+
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+
+	background: transparent;
+
+	text-decoration: none;
+
+	width: 200px;
+	height: auto;
+	
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 12px;
+	line-height: 25px;
+	border: 2px solid;
+}
+
+
+
+a{
+
+	text-decoration: none;
+}
+
+.dark a{
+	color: #ededed;
+}
+
+.light a{
+	color: #222126;
+}
+
+.dark a:link{
+
+	color: #ededed;
+}
+
+.dark a:visited{
+
+	color: #ededed;
+}
+
+.light a:link{
+
+	color: #222126;
+}
+
+.light a:visited{
+
+	color: #222126;
+}
+
+.three-across{
+
+	width: 100%;
+}
+
+.project-inner{ /* each individual project is contained inside one of these*/
+
+
+	height: auto;
+	width: 100%;
+
+	text-align: center;
+	margin: 0 auto;
+} 
+
+/* These determine project width */
+.project-outer{
+
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+
+
+/* Project-inner is a nested div inside of project-outer*/
+
+.project-thumbnail{
+
+	width: 80vw;
+	height: fill;
+	margin: 0 auto;
+	margin-top: 15px;
+
+}
+
+/* Override project-outer class size for tablet */
+	@media (min-width: 768px) {
+		.project-outer {
+		width: 50%;
+		display: inline-block;
+		}
+
+		.project-thumbnail{
+			width: 80%;
+		}
+	}
+
+	/* Override project-outer class size for desktop */
+	@media (min-width: 1024px) {
+		.project-outer {
+		width: 32%;
+		display: inline-block;
+		}
+
+		.project-thumbnail{
+			width: 80%;
+		}
+	}	
+
+.page-background{
+
+	background: #ededed;
+	
+}
+
+.project-title{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-bottom: 10px;
+
+}
+
+.tagline{
+
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: normal;
+
+	letter-spacing: 1px;
+
+}
+
+.light{
+	color: #222126;
+	background-color: #ededed;
+}
+
+.dark{
+	color: #ededed;
+}
