@@ -53,7 +53,7 @@ body{
 	margin: 0 auto;
 	margin-bottom: -5px;
 
-	background-image: url("images/hero-mobile.jpg");
+	background-image: url("hero-mobile.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@ body{
 	@media (min-width: 1024px){
 		.hero{
 
-			background-image: url("images/hero-desktop.png");
+			background-image: url("hero-desktop.png");
 			background-size: contain;
 			background-repeat: no-repeat;
 
